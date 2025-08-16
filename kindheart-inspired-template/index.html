@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+<link href="assets/css/style.css" rel="stylesheet">
+<title>KindHeart Inspired – Charity & Nonprofit</title>
+
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="index.html">
+      <i class="fa-solid fa-hand-holding-heart me-2"></i>Kind<span class="text-primary">Heart</span>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto align-items-lg-center">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="pagesDropdown" role="button" data-bs-toggle="dropdown">Pages</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="about.html">About</a></li>
+            <li><a class="dropdown-item" href="blog.html">Blog</a></li>
+            <li><a class="dropdown-item" href="register.html">Register</a></li>
+            <li><a class="dropdown-item" href="contact.html">Contact</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <form class="d-flex ms-lg-3" id="searchForm" action="search.html">
+            <input class="form-control" type="search" placeholder="Search..." name="q">
+            <button class="btn btn-primary ms-2" type="submit"><i class="fa fa-search"></i></button>
+          </form>
+        </li>
+        <li class="nav-item ms-lg-3">
+          <a href="#donate" class="btn btn-outline-primary">Donate Now</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<header id="home" class="position-relative">
+  <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active vh-75 bg-cover text-white" style="background-image:url('assets/img/hero1.jpg')">
+        <div class="container h-100 d-flex flex-column justify-content-center">
+          <h1 class="display-5 fw-bold" data-aos="fade-up">Give a little, change a lot</h1>
+          <p class="lead col-lg-6" data-aos="fade-up" data-aos-delay="100">Join our mission to support education, health, and community development.</p>
+          <div data-aos="fade-up" data-aos-delay="200">
+            <a href="#donate" class="btn btn-primary btn-lg me-3">Donate Now</a>
+            <a href="about.html" class="btn btn-outline-light btn-lg">Learn More</a>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item vh-75 bg-cover text-white" style="background-image:url('assets/img/hero2.jpg')">
+        <div class="container h-100 d-flex flex-column justify-content-center">
+          <h1 class="display-5 fw-bold" data-aos="fade-up">Volunteer with purpose</h1>
+          <p class="lead col-lg-6" data-aos="fade-up" data-aos-delay="100">Be part of projects that bring hope and dignity.</p>
+          <div data-aos="fade-up" data-aos-delay="200">
+            <a href="register.html" class="btn btn-primary btn-lg me-3">Become a Volunteer</a>
+            <a href="contact.html" class="btn btn-outline-light btn-lg">Contact Us</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</header>
+
+<section class="py-5" id="features">
+  <div class="container">
+    <div class="row align-items-center gy-4">
+      <div class="col-lg-6" data-aos="fade-right">
+        <img src="assets/img/feature.jpg" class="img-fluid rounded-4 shadow-sm" alt="Community work">
+      </div>
+      <div class="col-lg-6" data-aos="fade-left">
+        <h2 class="fw-bold">Our Impact</h2>
+        <p class="text-muted">We partner with local communities to deliver sustainable programs.</p>
+        <div class="row g-4 pt-2">
+          <div class="col-6">
+            <div class="card border-0 shadow-sm rounded-4 hover-lift">
+              <div class="card-body">
+                <i class="fa-solid fa-school fa-2x mb-3"></i>
+                <h6 class="mb-1">Education</h6>
+                <p class="small-para mb-0">Scholarships, tutoring, and school kits.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="card border-0 shadow-sm rounded-4 hover-lift">
+              <div class="card-body">
+                <i class="fa-solid fa-stethoscope fa-2x mb-3"></i>
+                <h6 class="mb-1">Health</h6>
+                <p class="small-para mb-0">Camps, screenings and awareness.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="card border-0 shadow-sm rounded-4 hover-lift">
+              <div class="card-body">
+                <i class="fa-solid fa-seedling fa-2x mb-3"></i>
+                <h6 class="mb-1">Environment</h6>
+                <p class="small-para mb-0">Tree drives and clean-ups.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="card border-0 shadow-sm rounded-4 hover-lift">
+              <div class="card-body">
+                <i class="fa-solid fa-people-group fa-2x mb-3"></i>
+                <h6 class="mb-1">Livelihoods</h6>
+                <p class="small-para mb-0">Training & micro-grants.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="py-5 bg-light">
+  <div class="container">
+    <div class="row text-center">
+      <div class="col-md-3" data-aos="zoom-in">
+        <div class="counter" data-target="1200">0</div>
+        <p class="mb-0 text-muted">Children Educated</p>
+      </div>
+      <div class="col-md-3" data-aos="zoom-in" data-aos-delay="100">
+        <div class="counter" data-target="350">0</div>
+        <p class="mb-0 text-muted">Volunteers</p>
+      </div>
+      <div class="col-md-3" data-aos="zoom-in" data-aos-delay="200">
+        <div class="counter" data-target="85">0</div>
+        <p class="mb-0 text-muted">Projects</p>
+      </div>
+      <div class="col-md-3" data-aos="zoom-in" data-aos-delay="300">
+        <div class="counter" data-target="25">0</div>
+        <p class="mb-0 text-muted">Cities Reached</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="py-5" id="blog">
+  <div class="container">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+      <h2 class="fw-bold mb-0">Latest from our blog</h2>
+      <a href="blog.html" class="btn btn-outline-primary">View all</a>
+    </div>
+    <div class="row g-4">
+      <div class="col-md-4" data-aos="fade-up">
+        <div class="card h-100 hover-lift border-0 shadow-sm rounded-4">
+          <img src="assets/img/blog1.jpg" class="card-img-top rounded-top-4" alt="Blog 1">
+          <div class="card-body">
+            <h5 class="card-title">Back-to-school drive</h5>
+            <p class="card-text small-para">We distributed 800+ school kits to children in need.</p>
+            <a href="blog-post.html" class="stretched-link">Read more</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+        <div class="card h-100 hover-lift border-0 shadow-sm rounded-4">
+          <img src="assets/img/blog2.jpg" class="card-img-top rounded-top-4" alt="Blog 2">
+          <div class="card-body">
+            <h5 class="card-title">Health camp highlights</h5>
+            <p class="card-text small-para">Screened 500+ people for diabetes and hypertension.</p>
+            <a href="blog-post.html" class="stretched-link">Read more</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+        <div class="card h-100 hover-lift border-0 shadow-sm rounded-4">
+          <img src="assets/img/blog3.jpg" class="card-img-top rounded-top-4" alt="Blog 3">
+          <div class="card-body">
+            <h5 class="card-title">Trees for tomorrow</h5>
+            <p class="card-text small-para">Our community planted 2,000 saplings in a day.</p>
+            <a href="blog-post.html" class="stretched-link">Read more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="py-5 bg-light" id="donate">
+  <div class="container">
+    <div class="row align-items-center gy-4">
+      <div class="col-lg-7" data-aos="fade-right">
+        <h2 class="fw-bold">Your support changes lives</h2>
+        <p class="text-muted">Contributions help us scale programs and respond faster during crises.</p>
+      </div>
+      <div class="col-lg-5 text-lg-end" data-aos="fade-left">
+        <a href="register.html" class="btn btn-primary btn-lg me-2">Become a Volunteer</a>
+        <a href="contact.html" class="btn btn-outline-primary btn-lg">Contact Us</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="bg-dark text-light pt-5 mt-5">
+  <div class="container">
+    <div class="row gy-4">
+      <div class="col-md-4">
+        <h5 class="fw-bold">KindHeart</h5>
+        <p class="small-para">We are a volunteer-driven charity making real change in communities.</p>
+        <div class="d-flex gap-3 fs-5">
+          <a class="text-light" href="#"><i class="fab fa-facebook"></i></a>
+          <a class="text-light" href="#"><i class="fab fa-twitter"></i></a>
+          <a class="text-light" href="#"><i class="fab fa-instagram"></i></a>
+          <a class="text-light" href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <h6 class="text-uppercase">Quick Links</h6>
+        <ul class="list-unstyled">
+          <li><a class="text-decoration-none text-light-50" href="about.html">About</a></li>
+          <li><a class="text-decoration-none text-light-50" href="blog.html">Blog</a></li>
+          <li><a class="text-decoration-none text-light-50" href="contact.html">Contact</a></li>
+          <li><a class="text-decoration-none text-light-50" href="register.html">Register</a></li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <h6 class="text-uppercase">Newsletter</h6>
+        <form id="newsletterForm" class="newsletter-form">
+          <div class="input-group">
+            <input type="email" class="form-control" placeholder="Your email" required>
+            <button class="btn btn-primary" type="submit">Subscribe</button>
+          </div>
+          <div class="form-text text-light-50">We respect your privacy.</div>
+        </form>
+      </div>
+    </div>
+    <hr class="border-secondary my-4">
+    <div class="d-flex justify-content-between small-para flex-wrap">
+      <span>© <span id="year"></span> KindHeart Inspired. All rights reserved.</span>
+      <span>Built with Bootstrap 5.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script src="assets/js/main.js"></script>
+
+</body>
+</html>

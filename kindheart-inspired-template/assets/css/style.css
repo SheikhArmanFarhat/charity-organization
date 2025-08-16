@@ -1,0 +1,20 @@
+:root{
+  --brand:#0d6efd;
+}
+
+.vh-75{height:75vh;}
+.bg-cover{background-size:cover;background-position:center;}
+.text-light-50{color:rgba(255,255,255,.7)}
+.small-para{color:#6c757d;font-size:.95rem}
+
+.hover-lift{transition:transform .2s, box-shadow .2s}
+.hover-lift:hover{transform:translateY(-4px); box-shadow:0 .5rem 1rem rgba(0,0,0,.15)!important}
+
+.navbar .btn{border-radius:999px}
+.btn{border-radius:999px}
+.card, .rounded-4{border-radius:1rem}
+.rounded-top-4{border-top-left-radius:1rem; border-top-right-radius:1rem}
+
+.counter{font-size:2.25rem; font-weight:700}
+
+footer a:hover{opacity:.85}
